@@ -1,0 +1,16 @@
+*{
+    font-weight: 900;
+    margin: 10px;
+    padding: 10px;
+}
+p{
+    color: chartreuse;
+    font-size: 30px;
+}
+.content{
+    font-size: 40px;
+    color: aqua;
+}
+#content-id{
+    color: black;
+}

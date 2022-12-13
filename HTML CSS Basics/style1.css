@@ -1,0 +1,92 @@
+/*group selector*/
+/*p,h1,h2{
+    color: chartreuse;
+    font-size: 30px;
+}*/
+/*div para*/
+/*div p{
+    color: blueviolet;
+}*/
+/*onlu use for inside div class ul*/
+/*ul li{
+    color: aquamarine;
+    font-size: 40px;
+}*/
+/*its use for both inside ouyside ul(descendant selector(space))*/
+/*div li{
+    color: aquamarine;
+    font-size: 40px;
+}*/
+/*main class is use */
+/*.main li{
+    color: aquamarine;
+    font-size: 40px;
+}*/
+/*child selector(>)*/
+div > section{
+    color: brown;
+    background-color: aliceblue;
+}
+/*adjacent sibling selector(+)*/
+p + h1{              /*the h1 tag that is adjacent sibling of p tag should get color red*/
+    color: crimson;
+}
+p + p{
+    color: darkcyan;
+}
+/*general sibling selector(~)*/
+p ~ p{
+    color: darkgoldenrod;
+}
+/*Pseudo Classes*/
+.btn{
+    background-color:red;
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.btn:hover{
+    background-color:brown;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+/*.item{
+    color: green;
+}*/
+/*link s not visited so*/
+.item:link{
+    color: royalblue;
+}
+/*if link is visted*/
+.item:visited{
+    color: red;
+}
+input :focus{
+    border: 2px solid black;
+}
+/*pseudo element*/
+.task::after{
+    content: url(/images/accept1.png);
+  
+}
+.task::first-letter{
+    color: red;
+}
+.task::first-line{
+    color: chartreuse;
+}
+::marker{
+    color: blue;
+}
+/*Attribute Selector*/
+input[type="text"]{
+    color: aquamarine;
+    font-size: 20px;
+}
+a[target="_blank"]
+{
+    background-color: bisque;
+}
